@@ -14,7 +14,7 @@ export default function Home() {
       <header />
 
       <Container as="main" $variant="flexVerticalCenter" $width="large">
-        <Image src='/oxENS.png' alt='logo' width="64" height="64" />
+        <Image src='/oxENS.png' alt='logo' width="164" height="164" />
 
         <Heading level="1">OxENS: time to learn about web3!</Heading>
 
