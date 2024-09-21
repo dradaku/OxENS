@@ -2,8 +2,9 @@
 
 'use client'
 
-import { Button, Card, EnsSVG, Heading, Typography } from '@ensdomains/thorin'
+import { Button, Card, Heading, Typography } from '@ensdomains/thorin'
 import styled, { css } from 'styled-components'
+import Image from 'next/image'
 
 import { Container, Layout } from '@/components/templates'
 
@@ -13,9 +14,7 @@ export default function Home() {
       <header />
 
       <Container as="main" $variant="flexVerticalCenter" $width="large">
-        <SvgWrapper>
-          <EnsSVG />
-        </SvgWrapper>
+        <Image src='/oxENS.png' alt='logo' width="64" height="64" />
 
         <Heading level="1">OxENS: time to learn about web3!</Heading>
 
