@@ -20,7 +20,7 @@ export default function Home() {
         <ExamplesGrid>
           <Card title="💰 Name/Address Input 💰">
             <Typography color="textSecondary">
-              You want to send some moniesss to one of your faves but you also want to have their 'resolved' wallet address just to be extraaa sure. Check here!
+              You want to send some moniesss to one of your faves but you also want to have their &apos;resolved&apos; wallet address just to be extraaa sure. Check here!
             </Typography>
 
             <Button as="a" href="/input">
