@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client'
 
 import { Button, Card, EnsSVG, Heading, Typography } from '@ensdomains/thorin'
@@ -30,7 +32,7 @@ export default function Home() {
 
           <Card title="ENS Profile">
             <Typography color="textSecondary">
-              Okay so now you're super sure about the wallet address / ENS - time to check their profile pic! Show the primary and avatar for an ENS name.
+              Okay so now you are super sure about the ENS - time to check their profile pic! Show the primary and avatar for an ENS name
             </Typography>
 
             <Button as="a" href="/profile">
