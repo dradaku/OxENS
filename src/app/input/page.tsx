@@ -34,7 +34,7 @@ export default function Page() {
         <Card title="Name/Address Input">
           <Input
             label="Address or ENS Name"
-            placeholder="nick.eth"
+            placeholder="dradaku.eth"
             description={ensAddress && address}
             suffix={ensAddressIsLoading && <Spinner />}
             onChange={(e) => setInput(e.target.value)}

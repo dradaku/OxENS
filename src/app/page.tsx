@@ -15,12 +15,12 @@ export default function Home() {
           <EnsSVG />
         </SvgWrapper>
 
-        <Heading level="1">ENS Frontend Examples</Heading>
+        <Heading level="1">OxENS: time to learn about web3!</Heading>
 
         <ExamplesGrid>
-          <Card title="Name/Address Input">
+          <Card title="💰 Name/Address Input 💰">
             <Typography color="textSecondary">
-              Every address input should also accept ENS names.
+              You want to send some moniesss to one of your faves but you also want to have their 'resolved' wallet address just to be extraaa sure. Check here!
             </Typography>
 
             <Button as="a" href="/input">
@@ -30,7 +30,7 @@ export default function Home() {
 
           <Card title="ENS Profile">
             <Typography color="textSecondary">
-              Show the primary and avatar for an ENS name.
+              Okay so now you're super sure about the wallet address / ENS - time to check their profile pic! Show the primary and avatar for an ENS name.
             </Typography>
 
             <Button as="a" href="/profile">
