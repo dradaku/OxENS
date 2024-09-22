@@ -1,10 +1,8 @@
-This is a Next.js template designed to get you up and running with a new web3 project as quickly as possible.
+This is a Next.js based app to help users learn more about web3 by playing with resolving ENS domains.
 
 ## Getting Started
 
-Check out the [live demo](https://ens-frontend-template.vercel.app/) to see what this template looks like.
-
-Built with:
+This has been built with:
 
 - [Next.js](https://nextjs.org/)
 - [Thorin](https://thorin.ens.domains/)
@@ -12,6 +10,7 @@ Built with:
 - [Viem](https://viem.sh/)
 - [Wagmi](https://wagmi.sh/)
 - [RainbowKit](https://www.rainbowkit.com/)
+- [ReOwn](https://cloud.walletconnect.com/sign-in)
 
 ## How to use
 
@@ -21,22 +20,22 @@ Install dependencies:
 yarn install
 ```
 
-Create a [WalletConnect account](https://cloud.walletconnect.com/sign-in) and add your Project ID to `.env.local`:
+A [ReOwn](https://cloud.walletconnect.com/sign-in) was created and our Project ID was added to `.env.local`:
 
 ```bash
 cp .env.example .env.local
 ```
 
-Start the development server:
+We then started the development server:
 
 ```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then [http://localhost:3000](http://localhost:3000) was opened with our browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+The frontend was edited by modifying `pages/index.tsx`. 
 
-## Deploy on Vercel
+## Deployed on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fensdomains%2Ffrontend-template&env=NEXT_PUBLIC_WALLETCONNECT_ID&envDescription=API%20Keys%20needed%20for%20the%20applicatation.)
+Furthermore, the project was deployed with Vercel [![Deploy with Vercel](https://vercel.com/button)](https://ox-k6f8s65q6-dradakus-projects.vercel.app)
